@@ -40,6 +40,15 @@ npm run open
 ```sh
 npm run cy:run
 ```
+
+**5** - To run Headless Mode but with the cypress recorder option, type: 
+
+NOTE: All the results will be available [here](https://cloud.cypress.io/projects/saak6b/runs/2/overview)
+
+```sh
+npm run cy:run:dash
+```
+
 ---
 
 [License MIT](/LICENSE)

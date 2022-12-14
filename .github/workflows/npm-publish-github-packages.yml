@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v1
     - name: Setup Node.js
       uses: actions/setup-node@v2
-    - name: Instalação das dependências de produção
+    - name: Clear install dependencies
       run: npm ci 
     - name: Test execution
       run: npm run cy:dash
