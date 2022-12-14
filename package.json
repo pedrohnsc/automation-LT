@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "cy:dash": "cypress run --record --key c40c81e6-3b3f-4a62-908a-b5b01607eea5"
   },
   "keywords": [],
   "author": "Pedro Nascimento - pedrohnsc@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "cypress": "^9.7.0"
   }
 }

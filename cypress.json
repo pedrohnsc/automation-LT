@@ -1,1 +1,7 @@
-{}
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "viewportHeight": 1080,
+    "viewportWidth": 1920,
+    "chromeWebSecurity": false,
+    "projectId": "saak6b"
+}

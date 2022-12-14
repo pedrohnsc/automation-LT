@@ -5,9 +5,7 @@
 
 ---
 
-## All the test scenarios are located on integration folder
-
-- The reporter used on this project was the [Cypress Dashboard](https://www.cypress.io/cloud/) and all the results are available on the cypress cloud.
+# All the test scenarios are located on integration folder
 
 ## Execution
 
@@ -22,7 +20,7 @@ All the commands below are executed in the command _prompt_.
 **1** - Download the project and access the created directory:
 
 ```sh
-cd venturus-automation
+cd automation-LT
 ```
 
 **2** - Install the necessary dependencies to run the tests:
@@ -40,17 +38,8 @@ npm run open
 **4** - To run Headless Mode, type:
 
 ```sh
-npm run cypress:run
+npm run cy:run
 ```
-
-**5** - To run Headless Mode but with the cypress recorder option, type: 
-
-NOTE: All the results will be available [here](https://cloud.cypress.io/projects/a46wo6/runs/2/overview)
-
-```sh
-npm run cy:run:dash
-```
-
 ---
 
 [License MIT](/LICENSE)
