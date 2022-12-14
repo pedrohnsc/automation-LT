@@ -25,4 +25,8 @@ describe('Add a product to the cart and go to checkout', () => {
             cy.url().should('be.equal', Cypress.env('baseUrl') + '/checkout-complete.html')
         })
     })
+
+    afterEach(()=>{
+        cy.screenshot()
+    })
 })
